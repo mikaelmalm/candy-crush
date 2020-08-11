@@ -12,3 +12,19 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.grid {
+  // grid will be 8x8
+  // 70px squares * 8 is 560
+  height: 560px;
+  width: 560px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  // background-color: blue;
+
+  div {
+    height: 70px;
+    width: 70px;
+  }
+}
